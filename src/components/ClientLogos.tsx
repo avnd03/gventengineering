@@ -4,19 +4,11 @@ import SectionTitle from './SectionTitle';
 
 const colors = ['#E53E3E', '#3182CE', '#38A169', '#D69E2E', '#805AD5', '#DD6B20', '#319795'];
 
-function ClientLogo({ name, index }: { name: string; index: number }) {
+function ClientLogo({ name, logo, index }: { name: string; logo: string; index: number }) {
   return (
-    <div className="flex-shrink-0 w-52 h-28 mx-8 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 flex items-center justify-center px-6 hover:shadow-md hover:border-accent/30 transition-all duration-300 group cursor-pointer">
+    <div className="flex-shrink-0 w-52 h-28 mx-8 bg-white rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 flex items-center justify-center px-6 hover:shadow-md hover:border-accent/30 transition-all duration-300 group cursor-pointer">
       <div className="flex flex-col items-center gap-2">
-        <div
-          className="w-12 h-12 rounded-lg flex items-center justify-center text-white font-bold text-xl font-[Poppins] group-hover:scale-110 transition-transform"
-          style={{ backgroundColor: colors[index % colors.length] }}
-        >
-          {name.charAt(0)}
-        </div>
-        <span className="text-sm font-semibold text-secondary dark:text-gray-400 group-hover:text-primary dark:group-hover:text-white transition-colors truncate max-w-full">
-          {name}
-        </span>
+        <img src={logo} />
       </div>
     </div>
   );
@@ -52,7 +44,7 @@ export default function ClientLogos({ showTitle = true, light }: ClientLogosProp
         <div className="absolute right-0 top-0 bottom-0 w-40 bg-gradient-to-l from-white dark:from-gray-900 to-transparent z-10 pointer-events-none" />
         <div className="flex animate-scroll-left py-4">
           {doubled.map((client, i) => (
-            <ClientLogo key={`${client.id}-${i}`} name={client.name} index={i} />
+            <ClientLogo key={`${client.id}-${i}`} name={client.name} logo={client.logo} index={i} />
           ))}
         </div>
       </motion.div>

@@ -146,7 +146,7 @@ export default function ServiceDetailPage() {
                   <h3 className="text-2xl md:text-3xl font-bold font-[Poppins] text-primary dark:text-white mb-8">
                     Enquire About This Service
                   </h3>
-                  <ContactForm />
+                  <ContactForm pageName="Service Detail" serviceName={service.title} />
                 </div>
               </motion.div>
             </div>

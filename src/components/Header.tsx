@@ -45,13 +45,13 @@ export default function Header({ isDark, toggleDark }: HeaderProps) {
         <div className="bg-primary text-white">
           <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex justify-between items-center py-2.5 text-sm">
             <div className="flex items-center gap-5">
-              <a href="tel:+6561234567" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <a href="tel:+6567442724" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Phone className="w-3.5 h-3.5" />
-                +65 6123 4567
+                +65 6744 2724
               </a>
               <span className="hidden sm:inline text-white/30">|</span>
               <a href="mailto:info@gvent.com.sg" className="hidden sm:inline hover:text-accent transition-colors">
-                info@gvent.com.sg
+                project@gventengineering.com
               </a>
             </div>
             <div className="flex items-center gap-3">
@@ -66,21 +66,7 @@ export default function Header({ isDark, toggleDark }: HeaderProps) {
         <div className="flex justify-between items-center h-20 md:h-24">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 md:w-12 md:h-12 bg-accent rounded-lg flex items-center justify-center transform group-hover:scale-105 transition-transform">
-              <span className="text-white font-bold text-lg md:text-xl font-[Poppins]">G</span>
-            </div>
-            <div>
-              <span className={`text-lg md:text-xl font-bold font-[Poppins] tracking-tight ${
-                isScrolled ? 'text-primary dark:text-white' : 'text-white'
-              }`}>
-                GVENT
-              </span>
-              <span className={`hidden sm:block text-[10px] uppercase tracking-[0.2em] mt-0.5 ${
-                isScrolled ? 'text-secondary dark:text-gray-400' : 'text-gray-300'
-              }`}>
-                Engineering
-              </span>
-            </div>
+            <img src="/images/logo_light.png" alt="Logo" className='w-35' />
           </Link>
 
           {/* Desktop Nav */}

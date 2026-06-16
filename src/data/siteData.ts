@@ -198,13 +198,13 @@ export const projects: Project[] = [
 ];
 
 export const clients = [
-  { id: '1', name: 'Asahi', logo: '' },
-  { id: '2', name: 'Seatrium', logo: '' },
-  { id: '3', name: 'Kurihara', logo: '' },
-  { id: '4', name: 'Omnicrest', logo: '' },
-  { id: '5', name: 'Kinden', logo: '' },
-  { id: '6', name: 'Keppel', logo: '' },
-  { id: '7', name: 'Johnson Controls', logo: '' },
+  { id: '1', name: 'Asahi', logo: '/clients/asahi.jpeg' },
+  { id: '2', name: 'Seatrium', logo: '/clients/seatrium.jpeg' },
+  { id: '3', name: 'Kurihara', logo: '/clients/kurihara.jpeg' },
+  { id: '4', name: 'Omnicrest', logo: '/clients/omnicrest.jpeg' },
+  { id: '5', name: 'Kinden', logo: '/clients/kinden.jpeg' },
+  { id: '6', name: 'Keppel', logo: '/clients/keppel.jpeg' },
+  { id: '7', name: 'Johnson Controls', logo: '/clients/johnson.jpeg' },
 ];
 
 export const testimonials = [
@@ -237,31 +237,31 @@ export const testimonials = [
 export const companyInfo = {
   name: 'GVENT Engineering Pte Ltd',
   tagline: 'Engineering Solutions That Drive Innovation',
-  phone: '+65 6123 4567',
-  email: 'info@gvent.com.sg',
-  registeredAddress: '10 Anson Road, #12-06 International Plaza, Singapore 079903',
-  factory1: '21 Tuas South Avenue 2, Singapore 637601',
-  factory2: '15 Pioneer Road North, Singapore 628461',
-  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8198936799437!2d103.84545!3d1.2743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTYnMjcuNSJOIDEwM8KwNTAnNDMuNiJF!5e0!3m2!1sen!2ssg!4v1234567890',
+  phone: '+65 6744 2724',
+  email: 'project@gventengineering.com',
+  registeredAddress: '2 Buroh Crescent, #01-07, Ace@Buroh, Singapore 627546',
+  factory1: '2 Buroh Crescent, #01-04, Ace@Buroh, Singapore 627546',
+  factory2: '2 Buroh Crescent, #09-03, Ace@Buroh, Singapore 627546',
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8055657960517!2d103.69847209999999!3d1.3108613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da182809e509a9%3A0x152cc4c11f3ddde7!2sGvent%20Engineering%20%26%20Construction%20Pte.%20Ltd.!5e1!3m2!1sen!2sin!4v1781598017497!5m2!1sen!2sin',
   socialMedia: {
     facebook: 'https://facebook.com/gventengineering',
     linkedin: 'https://linkedin.com/company/gventengineering',
     instagram: 'https://instagram.com/gventengineering',
   },
-  whatsapp: '+6561234567',
+  whatsapp: '+6567442724',
 };
 
 export const stats = [
-  { label: 'Years of Excellence', value: 12, suffix: '+' },
-  { label: 'Project Success', value: 100, suffix: '+' },
+  { label: 'Years of Excellence', value: 15, suffix: '+' },
+  { label: 'Project Success', value: 150, suffix: '+' },
   { label: 'Employees', value: 120, suffix: '+' },
-  { label: 'Completed Projects', value: 500, suffix: '+' },
+  { label: 'Completed Projects', value: 600, suffix: '+' },
 ];
 
 export const whyChooseUs = [
   {
     title: 'Experience & Expertise',
-    description: 'Over 12 years of proven track record in delivering complex engineering projects across commercial and industrial sectors.',
+    description: 'Over 15 years of proven track record in delivering complex engineering projects across commercial and industrial sectors.',
     icon: 'Award',
   },
   {

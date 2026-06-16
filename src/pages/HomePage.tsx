@@ -26,7 +26,7 @@ function HeroSection() {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/60" />
       <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
-      
+
       {/* Animated geometric shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -369,7 +369,7 @@ function ContactPreview() {
             className="bg-white dark:bg-gray-900 rounded-2xl p-8 md:p-10 shadow-sm border border-gray-100 dark:border-gray-700"
           >
             <h3 className="text-xl font-bold font-[Poppins] text-primary dark:text-white mb-8">Send Us a Message</h3>
-            <ContactForm compact />
+            <ContactForm compact pageName="Home Page" />
           </motion.div>
 
           {/* Company Info */}

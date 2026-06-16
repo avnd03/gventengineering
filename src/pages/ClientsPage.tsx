@@ -19,7 +19,7 @@ export default function ClientsPage() {
 
       {/* Logo Wall */}
       <section className="py-28 md:py-36 bg-white dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <SectionTitle
             subtitle="Our Partners"
             title="Companies That Trust Us"
@@ -36,15 +36,7 @@ export default function ClientsPage() {
                 transition={{ delay: i * 0.05 }}
                 className="bg-bg-light dark:bg-gray-800 rounded-2xl p-6 md:p-7 flex flex-col items-center justify-center hover:shadow-lg hover:border-accent/30 border border-transparent transition-all duration-300 group cursor-pointer aspect-square"
               >
-                <div
-                  className="w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center text-white font-bold text-2xl font-[Poppins] mb-4 group-hover:scale-110 transition-transform"
-                  style={{ backgroundColor: colors[i % colors.length] }}
-                >
-                  {client.name.charAt(0)}
-                </div>
-                <span className="text-sm font-semibold text-secondary dark:text-gray-400 group-hover:text-primary dark:group-hover:text-white transition-colors text-center">
-                  {client.name}
-                </span>
+                <img src={client.logo} />
               </motion.div>
             ))}
           </div>

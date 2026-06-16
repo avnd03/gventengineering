@@ -30,7 +30,7 @@ export default function ContactPage() {
               <p className="text-secondary dark:text-gray-400 mb-10 leading-relaxed text-base">
                 Fill out the form below and our team will get back to you within 24 hours.
               </p>
-              <ContactForm />
+              <ContactForm pageName="Contact Page" />
             </motion.div>
 
             {/* Contact Info */}

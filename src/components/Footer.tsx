@@ -53,13 +53,7 @@ export default function Footer() {
           {/* Company */}
           <div>
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-11 h-11 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg font-[Poppins]">G</span>
-              </div>
-              <div>
-                <span className="text-lg font-bold font-[Poppins]">GVENT</span>
-                <span className="block text-[10px] uppercase tracking-[0.2em] text-gray-400 mt-0.5">Engineering</span>
-              </div>
+              <img src="/images/logo_light.png" alt="Logo" className='w-35' />
             </div>
             <p className="text-gray-300 text-sm leading-[1.8] mb-8">
               Providing innovative engineering solutions from design to maintenance. Trusted partner for commercial and industrial projects in Singapore.
