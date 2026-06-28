@@ -30,7 +30,7 @@ export const EMAIL_CONFIG = {
    * ⚠️  REPLACE the key below with your own to receive emails
    *     at YOUR inbox. The default key sends to a demo inbox.
    */
-  accessKey: '3026885e-057e-4a3b-b53e-95b65021571c',
+  accessKey: '01f09dc0-672e-4236-911f-a09f569a8771',
 
   /** API endpoint — do NOT change */
   endpoint: 'https://api.web3forms.com/submit',

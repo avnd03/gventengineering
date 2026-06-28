@@ -15,6 +15,8 @@ import ProjectDetailPage from './pages/ProjectDetailPage';
 import ClientsPage from './pages/ClientsPage';
 import ContactPage from './pages/ContactPage';
 import AdminPage from './pages/AdminPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -44,6 +46,8 @@ function AppLayout({ isDark, toggleDark }: { isDark: boolean; toggleDark: () => 
             <Route path="/clients" element={<ClientsPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/admin" element={<AdminPage />} />
+            <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/terms" element={<TermsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
